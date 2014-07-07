@@ -18,10 +18,10 @@ DESC="Cassandra"
 NAME=cassandra
 PIDFILE=/var/run/$NAME.pid
 SCRIPTNAME=/etc/init.d/$NAME
-CONFDIR=/etc/cassandra
+CONFDIR=/home/development/apache-cassandra-2.0.7/conf
 JSVC=/usr/bin/jsvc
 WAIT_FOR_START=10
-CASSANDRA_HOME=/usr/share/cassandra
+CASSANDRA_HOME=/home/development/apache-cassandra-2.0.7
 FD_LIMIT=100000
 
 # The first existing directory is used for JAVA_HOME if needed.
